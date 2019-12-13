@@ -5,10 +5,8 @@ url = 'https://www.donedeal.ie/cars-for-sale/ford-c-max-low-millage-tax-and-nct/
 with ul.urlopen(url) as f:
     print(f.read().decode('utf-8'))
 
-
 # read all data
 #print(ul.urlopen(url).read())
-
 
 #session = HTMLSession()
 #r = session.get(url)
@@ -28,8 +26,6 @@ print(metaData)
 #r.html.search('Make ')[0]
 #<div class="cad-details cad-details-spacing">
 #/ html / body / main / div / div[1] / div / div[2] / div[2] / div[4] / div[1] / div[2] / ul
-
-
 
 #sel = 'body > main > div > div:nth-child(1) > div > div.main-content.page-row.ng-scope > div.cad-column-1 > div:nth-child(4) > div.cad-details.cad-details-spacing > div.cad-content.divider > ul > li:nth-child(2) > span.meta-info__value > span'
 

@@ -16,8 +16,6 @@ for tag in soup.findAll('a', href=True, class_="card__link"):
     queryURLS.append(tag['href'])
 #print(queryURLS)
 
-
-
 count=0
 #Pull data from each of the pages
 for url in queryURLS:
