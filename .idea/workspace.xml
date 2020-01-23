@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="test 1">
+    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="first success at executing attempt.py">
+      <change afterPath="$PROJECT_DIR$/data/car10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car32.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataGathering.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataGathering.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/attempt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car0.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car3.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car4.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car5.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car6.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car7.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/car7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +101,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/workspace/KD/aima-python/tictactoe.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.attempt">
+  <component name="RunManager" selected="Python.Unnamed">
     <configuration name="DataGatheringJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BuyingACar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +136,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Ruairi.OReilly\PycharmProjects\BuyingACar\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\NIKO\PycharmProjects\doneDeal\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -248,7 +281,12 @@
       <updated>1550841705301</updated>
       <workItem from="1576238432452" duration="455000" />
       <workItem from="1576238949848" duration="908000" />
-      <workItem from="1576239987210" duration="1685000" />
+      <workItem from="1576239987210" duration="1972000" />
+      <workItem from="1576244277396" duration="823000" />
+      <workItem from="1578349003451" duration="2603000" />
+      <workItem from="1579209702517" duration="165000" />
+      <workItem from="1579273231554" duration="1188000" />
+      <workItem from="1579808393532" duration="7401000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <created>1576239868835</created>
@@ -257,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576239868835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first success at executing attempt.py">
+      <created>1576242055807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576242055822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,44 +310,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
+    <MESSAGE value="first success at executing attempt.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="first success at executing attempt.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576239398044">
+    <state x="275" y="21" key="#Notifications" timestamp="1578349059097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576239398044" />
-    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1576239866570">
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1578349059097" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579810000038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576239866570" />
-    <state width="635" height="209" key="GridCell.Tab.0.bottom" timestamp="1576241934707">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579810000038" />
+    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1576242052963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="635" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576241934707" />
-    <state width="635" height="209" key="GridCell.Tab.0.center" timestamp="1576241934707">
+    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576242052963" />
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1579816160079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="635" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576241934707" />
-    <state width="635" height="209" key="GridCell.Tab.0.left" timestamp="1576241934707">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579816160079" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1579816160079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="635" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576241934707" />
-    <state width="635" height="209" key="GridCell.Tab.0.right" timestamp="1576241934707">
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579816160079" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1579816160079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="635" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576241934707" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579816160079" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1579816160079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579816160079" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576240096013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576240096013" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1576239988679">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579808396086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576239988679" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579808396086" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/doneDeal$attempt.coverage" NAME="attempt Coverage Results" MODIFIED="1576241934692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1579816160063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$attempt.coverage" NAME="attempt Coverage Results" MODIFIED="1579209720966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doneDeal$DataGatheringJSON.coverage" NAME="DataGatheringJSON Coverage Results" MODIFIED="1576240993732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
 </project>
