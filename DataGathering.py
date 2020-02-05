@@ -17,14 +17,22 @@ response = requests.get(url, headers=headers)
 # More info on regex to be found below
 # https://stackoverflow.com/questions/499345/regular-expression-to-extract-url-from-an-html-link
 
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.text, 'lxml')
 
 #price_list = soup.findAll(re.compile('/-->\d +,\d + <!--/g'), class_='card__price')
 #price_list = soup.findAll('card__price', ex= re.compile("-->\d +,\d + <!--"))
+#price_list= soup.findAll('card__price', {"class": re.compile(r'-->\d +,\d + <!--')})
+#print(price_list)
 
-price_list= soup.findAll('card__price', {"class": re.compile("-->\d +,\d + <!--")})
+for price in soup.findAll('p', attrs={'class': 'card__price'}):
+    print(price.text)
 
-len(price_list)
+
+"""for price in table:
+    print(re.findall(r'-->\d +,\d + <!--', table))
+    print(table)
+
+#len(price_list)
 
 for price in price_list:
     prices = price.contents[0]
@@ -32,10 +40,10 @@ for price in price_list:
     price_figure = prices
     result = "".join(regex_pattern.findall(price_figure))
     len(price_list)
-    print(prices + "\n")
+    print(prices + "\n"]])
     print(result)
 
-
+"""
 #for item in soup.get_text().split():
 #    currency = item[0]
 #    value = locale.atof(item[1:])

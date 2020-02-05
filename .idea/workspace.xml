@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="first success at executing attempt.py">
+    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="Second commit. Problem with getting a result when trying to get just the prices.">
+      <change afterPath="$PROJECT_DIR$/GatheringAttempt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataGathering.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataGathering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/attempt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,13 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -78,6 +87,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.Unnamed">
+    <configuration name="DataGatheringAttempt" type="PythonConfigurationType" factoryName="Python">
+      <module name="BuyingACar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GatheringAttempt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DataGatheringJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BuyingACar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,9 +138,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\NIKO\PycharmProjects\doneDeal\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -212,6 +243,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.DataGatheringAttempt" />
       <item itemvalue="Python.DataGatheringJSON" />
       <item itemvalue="Python.ballGame" />
       <item itemvalue="Python.ballGame2d" />
@@ -220,9 +252,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DataGatheringJSON" />
         <item itemvalue="Python.attempt" />
         <item itemvalue="Python.tictactoe" />
-        <item itemvalue="Python.DataGatheringJSON" />
         <item itemvalue="Python.ballGame2d" />
         <item itemvalue="Python.ballGame" />
       </list>
@@ -260,7 +292,10 @@
       <workItem from="1579808393532" duration="9336000" />
       <workItem from="1580315199445" duration="1626000" />
       <workItem from="1580724482631" duration="6573000" />
-      <workItem from="1580759246337" duration="2885000" />
+      <workItem from="1580759246337" duration="6111000" />
+      <workItem from="1580895561330" duration="670000" />
+      <workItem from="1580899253863" duration="3104000" />
+      <workItem from="1580912116951" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <created>1576239868835</created>
@@ -283,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579816455335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second commit. Problem with getting a result when trying to get just the prices.">
+      <created>1580762183594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580762183594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,49 +334,51 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 1" />
     <MESSAGE value="first success at executing attempt.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="first success at executing attempt.py" />
+    <MESSAGE value="Second commit. Problem with getting a result when trying to get just the prices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit. Problem with getting a result when trying to get just the prices." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Notifications" timestamp="1580725544737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580725544737" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579810000038">
+    <state x="135" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580908318325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579810000038" />
-    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1579816450672">
+    <state x="135" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580908318325" />
+    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1580762180158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579816450672" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1580762107461">
+    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580762180158" />
+    <state width="637" height="178" key="GridCell.Tab.0.bottom" timestamp="1580914854025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580762107461" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1580762107461">
+    <state width="637" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
+    <state width="637" height="178" key="GridCell.Tab.0.center" timestamp="1580914854025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580762107461" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1580762107461">
+    <state width="637" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
+    <state width="637" height="178" key="GridCell.Tab.0.left" timestamp="1580914854024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580762107461" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1580762107461">
+    <state width="637" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580914854024" />
+    <state width="637" height="178" key="GridCell.Tab.0.right" timestamp="1580914854025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580762107461" />
+    <state width="637" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576240096013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576240096013" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580759262236">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580912115638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580759262236" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580912115638" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/doneDeal$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1580762107378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/doneDeal$attempt.coverage" NAME="attempt Coverage Results" MODIFIED="1579209720966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/doneDeal$DataGatheringJSON.coverage" NAME="DataGatheringJSON Coverage Results" MODIFIED="1576240993732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/doneDeal$DataGatheringAttempt.coverage" NAME="DataGatheringAttempt Coverage Results" MODIFIED="1580908748460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1580914854006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$attempt.coverage" NAME="attempt Coverage Results" MODIFIED="1580906576009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$DataGatheringJSON.coverage" NAME="DataGatheringJSON Coverage Results" MODIFIED="1580906723519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
 </project>
