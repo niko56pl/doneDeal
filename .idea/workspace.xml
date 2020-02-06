@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="Second commit. Problem with getting a result when trying to get just the prices.">
-      <change afterPath="$PROJECT_DIR$/GatheringAttempt.py" afterDir="false" />
+    <list default="true" id="dc45f639-febe-4877-b81a-5093bd49e35a" name="Default" comment="Third commit. Managed to get a list of prices from one page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataGathering.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataGathering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/attempt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +293,7 @@
       <workItem from="1580759246337" duration="6111000" />
       <workItem from="1580895561330" duration="670000" />
       <workItem from="1580899253863" duration="3104000" />
-      <workItem from="1580912116951" duration="2781000" />
+      <workItem from="1580912116951" duration="11285000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <created>1576239868835</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580762183594</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Third commit. Managed to get a list of prices from one page.">
+      <created>1580914948619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580914948619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +340,8 @@
     <MESSAGE value="test 1" />
     <MESSAGE value="first success at executing attempt.py" />
     <MESSAGE value="Second commit. Problem with getting a result when trying to get just the prices." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit. Problem with getting a result when trying to get just the prices." />
+    <MESSAGE value="Third commit. Managed to get a list of prices from one page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit. Managed to get a list of prices from one page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Notifications" timestamp="1580725544737">
@@ -346,26 +352,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="135" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580908318325" />
-    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1580762180158">
+    <state x="338" y="0" key="CommitChangelistDialog2" timestamp="1580914943213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580762180158" />
-    <state width="637" height="178" key="GridCell.Tab.0.bottom" timestamp="1580914854025">
+    <state x="338" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580914943213" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1581022862631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
-    <state width="637" height="178" key="GridCell.Tab.0.center" timestamp="1580914854025">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581022862631" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1581022862631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
-    <state width="637" height="178" key="GridCell.Tab.0.left" timestamp="1580914854024">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581022862631" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1581022862631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580914854024" />
-    <state width="637" height="178" key="GridCell.Tab.0.right" timestamp="1580914854025">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581022862631" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1581022862631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580914854025" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581022862631" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576240096013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,7 +383,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/doneDeal$DataGatheringAttempt.coverage" NAME="DataGatheringAttempt Coverage Results" MODIFIED="1580908748460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/doneDeal$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1580914854006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doneDeal$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1581022862619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doneDeal$attempt.coverage" NAME="attempt Coverage Results" MODIFIED="1580906576009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doneDeal$DataGatheringJSON.coverage" NAME="DataGatheringJSON Coverage Results" MODIFIED="1580906723519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>

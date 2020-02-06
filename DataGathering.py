@@ -3,8 +3,8 @@ import re
 import locale
 from bs4 import BeautifulSoup
 
-#locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
-#d = {'€':1,'£':1.2}
+locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
+d = {'€':1,'£':1.2}
 
 # URL we are looking for
 url = "https://www.donedeal.ie/cars/Ford/C-MAX"
@@ -17,7 +17,7 @@ response = requests.get(url, headers=headers)
 # More info on regex to be found below
 # https://stackoverflow.com/questions/499345/regular-expression-to-extract-url-from-an-html-link
 
-soup = BeautifulSoup(response.text, 'lxml')
+soup = BeautifulSoup(response.text, 'html.parser')
 
 #price_list = soup.findAll(re.compile('/-->\d +,\d + <!--/g'), class_='card__price')
 #price_list = soup.findAll('card__price', ex= re.compile("-->\d +,\d + <!--"))
@@ -25,7 +25,21 @@ soup = BeautifulSoup(response.text, 'lxml')
 #print(price_list)
 
 for price in soup.findAll('p', attrs={'class': 'card__price'}):
-    print(price.text)
+    price = price.text
+    #price = soup.findAll(re.compile("\d +, \d"))
+    currency_only = re.compile(r'£|€')
+    just_currency = currency_only.findall(price)
+    #print(just_currency)
+
+    price_only = re.compile(r'\d[0-9,.]+')
+    just_price = price_only.findall(price)
+    #print(just_price)
+
+    integer_price = [int(''.join(s[1:].split(','))) for s in just_price]
+
+    print(integer_price)
+
+    #print(price_list)
 
 
 """for price in table:
