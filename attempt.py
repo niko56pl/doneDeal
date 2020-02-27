@@ -5,7 +5,7 @@ with urllib.request.urlopen(url) as f:
     print(f.read().decode('utf-8'))
 
 # read all data
-"""print(ul.urlopen(url).read())
+print(ul.urlopen(url).read())
 
 session = HTMLSession()
 r = session.get(url)
@@ -13,15 +13,15 @@ r = session.get(url)
 r = session.get('https://www.donedeal.ie/cars/Ford/C-MAX')
 print(r.html.links)
 about = r.html.find('#about', first=True)
-"""
-"""
+
+
 page = r.html.render()
 print(page)
 metaData = page.find('.meta-info__value')
 #metaData = r.html.find('#about', first=True)
 print(metaData)
-"""
-"""print(r.html.render().text)
+
+print(r.html.render().text)
 
  r.html.search('Make ')[0]
  <div class="cad-details cad-details-spacing">

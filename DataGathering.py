@@ -1,12 +1,14 @@
 import requests
 import re
 import locale
+from currency_converter import CurrencyConverter
+c = CurrencyConverter()
 from bs4 import BeautifulSoup
+import pandas as pd
 
 locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
-d = {'€':1,'£':1.2}
+#d = {'€':1,'£':1.2}
 
-# URL we are looking for
 url = "https://www.donedeal.ie/cars/Ford/C-MAX"
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
@@ -18,37 +20,48 @@ response = requests.get(url, headers=headers)
 # https://stackoverflow.com/questions/499345/regular-expression-to-extract-url-from-an-html-link
 
 soup = BeautifulSoup(response.text, 'html.parser')
-
-#price_list = soup.findAll(re.compile('/-->\d +,\d + <!--/g'), class_='card__price')
-#price_list = soup.findAll('card__price', ex= re.compile("-->\d +,\d + <!--"))
-#price_list= soup.findAll('card__price', {"class": re.compile(r'-->\d +,\d + <!--')})
-#print(price_list)
-
+count = 0
+sumTot = 0
 for price in soup.findAll('p', attrs={'class': 'card__price'}):
     price = price.text
-    #price = soup.findAll(re.compile("\d +, \d"))
-    currency_only = re.compile(r'£|€')
-    just_currency = currency_only.findall(price)
+    price = price.replace("No Price", "0")
+    price = price.replace(",","")
+    price = price.replace("€", "")
+    if "p/m" in price:
+        #price = price[:-3]
+        price = price.rstrip('p/m')
+        price = "0"
+    if "£" in price:
+        price = price.replace("£", "")
+        price = c.convert(price, 'GBP', 'EUR')
+        price = round(price)
+
+    print(price)
+
+    #currency_only = re.compile(r'£|€')
+    #just_currency = currency_only.findall(price)
     #print(just_currency)
-
-    price_only = re.compile(r'\d[0-9,.]+')
+    '''
+    price_only = re.compile(r'\d[0-9.]+')
     just_price = price_only.findall(price)
-    #print(just_price)
+    integer_price = int(just_price[0])
+    
+    #print(integer_price) '''
 
-    integer_price = [int(''.join(s[1:].split(','))) for s in just_price]
+    sumTot = sumTot + int(price)
+    if price != "0":
+        count = count + 1
+    price = price.replace("0", "")
 
-    print(integer_price)
+print("Total:",sumTot)
+print("Number of ads:",count)
+print("Average:", round(sumTot/count))
 
-    #print(price_list)
+#df = pd.DataFrame({'Price': integer_price})
+#print(df)
 
-
-"""for price in table:
-    print(re.findall(r'-->\d +,\d + <!--', table))
-    print(table)
-
-#len(price_list)
-
-for price in price_list:
+"""
+for sterling in price:
     prices = price.contents[0]
     regex_pattern = prices.compile("\d+")
     price_figure = prices
